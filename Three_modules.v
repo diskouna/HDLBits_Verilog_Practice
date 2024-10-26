@@ -1,8 +1,0 @@
-module top_module ( input clk, input d, output q );
-    wire q1, q2;
-    
-    my_dff inst_1 (clk, d, q1);
-    my_dff inst_2 (clk, q1, q2);
-    my_dff inst_3 (clk, q2, q);
-    
-endmodule
